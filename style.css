@@ -96,7 +96,7 @@ li a {
   margin-right: auto;
   top: 0px;
   width: 100%;
-  height: 100%;
+  height: 1000px;
  /* border: solid 4px white;
   box-shadow: 0 0 14px rgba(0,0,0,0.3); */
   position: absolute;
@@ -168,20 +168,15 @@ li a {
 /* Lorsque l' écran de la page devient de plus en plus petit,
 le slider et le header vont s'adapter et changer de taille */
 
-@media screen and (max-width:1040px) {
-
-  .slider {
-    width: 100%;
-    height: 100%;
-  }
-
 
 
 @media screen and (max-width:830px) {
 
   .slider {
+
     width: 100%;
-    height: 100%;
+    height: 1000px;
+
   }
 
   .suivant, .precedent {

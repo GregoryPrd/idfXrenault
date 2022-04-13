@@ -68,7 +68,8 @@ li a {
 
 
 .container{
-
+  text-transform: uppercase;
+  font-size: 20px;
   position: relative;
   text-align: center;
   margin-top: 550px;
@@ -77,7 +78,7 @@ li a {
 .container2{
   position: relative;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 40px;
 }
 
 
@@ -130,17 +131,24 @@ li a {
     cursor: pointer;
 }
 
-.suivant {
-    color: black;
-    right: 1rem;
+.rdv{
+  background-color: green;
 }
 
-.precedent {
-    color: black;
-    left: 1rem;
+.go{
+  text-transform: uppercase;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
+.gogo{
+    position: relative;
+  text-align: center;
+  margin-bottom: 200px;
 
+}
 
 /* Lorsque l' écran de la page devient de plus en plus petit,
 le slider et le header vont s'adapter et changer de taille */

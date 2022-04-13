@@ -65,7 +65,7 @@ li a {
 
 
 
-/* Icone pour le thème sombre */
+
 
 .container{
 
@@ -199,24 +199,14 @@ le slider et le header vont s'adapter et changer de taille */
 }
 
    .container{
-    padding-bottom
-    height: 140px;
-    width: 350px;
-    position: relative;
-    text-align: center;
-    color: #000000;
+
     font-size: 1.10em;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 
 .container2{
-  height: 100px;
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
   font-size: 0.75em;
+
 }
 }
 
